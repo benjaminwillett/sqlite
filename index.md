@@ -111,7 +111,9 @@ The above command will convert the entire contents of testDB.db database into SQ
 
 At this moment your database is empty, so you can try above two procedures once you have few tables and data in your database.
 
-Formatting OutputYou can use the following sequence of dot commands to format your output.sqlite>.header on
+#### Formatting Output
+You can use the following sequence of dot commands to format your output.sqlite>.header on
+```
 sqlite>.mode column
 sqlite>.timer on
 sqlite>The above setting will produce the output in the following format.ID          NAME        AGE         ADDRESS     SALARY
@@ -124,10 +126,21 @@ sqlite>The above setting will produce the output in the following format.ID     
 6           Kim         22          South-Hall  45000.0
 7           James       24          Houston     10000.0
 CPU Time: user 0.000000 sys 0.000000
-The sqlite_master TableThe master table holds the key information about your database tables and it is called sqlite_master. You can see its schema as follows −sqlite>.schema sqlite_masterThis will produce the following result.CREATE TABLE sqlite_master (
+```
+
+#### The sqlite_master Table
+The master table holds the key information about your database tables and it is called sqlite_master. You can see its schema as follows 
+```
+−sqlite>.schema sqlite_master
+```
+
+This will produce the following result.
+```
+CREATE TABLE sqlite_master (
    type text,
    name text,
    tbl_name text,
    rootpage integer,
    sql text
 );
+```
