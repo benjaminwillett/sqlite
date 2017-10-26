@@ -1,9 +1,12 @@
 ## Welcome to my SQLite Pages
 
 ## Install SQLite on Windows
-1. Go to SQLite download page, and download precompiled binaries from Windows section.
+1. Go to SQLite download page, and download precompiled binaries from Windows section.
+
 2. Download sqlite-shell-win32-*.zip and sqlite-dll-win32-*.zip zipped files.
+
 3. Create a folder C:\>sqlite and unzip above two zipped files in this folder, which will give you sqlite3.def, sqlite3.dll and sqlite3.exe files.
+
 4. Add C:\>sqlite in your PATH environment variable and finally go to the command prompt and issue sqlite3 command, which should display the following result.
 
 ```
