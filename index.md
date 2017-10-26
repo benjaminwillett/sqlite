@@ -1,7 +1,6 @@
 ## Welcome to my SQLite Pages
 
 ## Install SQLite on Windows
-
 1. Go to SQLite download page, and download precompiled binaries from Windows section.
 
 2. Download sqlite-shell-win32-*.zip and sqlite-dll-win32-*.zip zipped files.
