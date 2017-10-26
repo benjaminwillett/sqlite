@@ -3,8 +3,11 @@
 ## Install SQLite on Windows
 
 1. Go to SQLite download page, and download precompiled binaries from Windows section.
+
 2. Download sqlite-shell-win32-*.zip and sqlite-dll-win32-*.zip zipped files.
+
 3. Create a folder C:\>sqlite and unzip above two zipped files in this folder, which will give you sqlite3.def, sqlite3.dll and sqlite3.exe files.
+
 4. Add C:\>sqlite in your PATH environment variable and finally go to the command prompt and issue sqlite3 command, which should display the following result.
 
 ```
@@ -29,6 +32,7 @@ sqlite>
 If you do not see the above result, then it means you do not have SQLite installed on your Linux machine. Following are the following steps to install SQLite −
 
 1. Go to SQLite download page and download sqlite-autoconf-*.tar.gz from source code section.
+
 2. Run the following command −
 
 ```
@@ -45,6 +49,7 @@ The above command will end with SQLite installation on your Linux machine. Which
 Though the latest version of Mac OS X comes pre-installed with SQLite but if you do not have installation available then just follow these following steps −
 
 1. Go to SQLite download page, and download sqlite-autoconf-*.tar.gz from source code section.
+
 2. Run the following command −
 
 ```
